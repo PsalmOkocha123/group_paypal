@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+.container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+}
+    .container{
+    background-image:url(images/paypal.png);
+    background-size:cover ; 
+    height: 100vh;
+    width: 100%;
+}
+.contents {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+div{
+    width: fit-content;
+}
+.img-logo{
+    width: 50%;
+}
+.img-logo img{
+    width: 100%;
+}
+.div1{
+    width: 60%;
+}
+input{
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    padding: 10px 5px;
+    margin: 5px 0;
+}
+
+
+a{
+    text-decoration: none;
+    width: 60%;
+    display: block;
+    padding: 8px;
+    background-color:rgb(63, 163, 224);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    text-align: center;
+    margin: 5px 0;
+}
+
+.paragraph a{
+    text-decoration: none;
+    color: #fff;
+}
+hr{
+    width: 50%; 
+    margin-top: 20px;
+}
+.sign{
+    margin: 35px;
+}
+input:focus{
+    border: none;
+}
+button a{
+    text-decoration: none;
+    color: black;
+}
+.forget{
+    background: none;
+}
+@media screen and (max-width:375px) {
+    .container{
+        background-size: cover;
+    }
+    .paragraph a{
+        margin: 0;
+    
+    }
+    .paragraph{
+        margin: 0;
+    
+    }
+    hr{
+        width: 50%;
+    }
+    button{
+        width: 55%;
+    }
+    .login button{
+        width: 55%;
+    }
+    
+}
